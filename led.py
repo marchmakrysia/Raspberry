@@ -9,5 +9,5 @@ try:
   sleep(1)
   GPIO.output(21,GPIO.LOW)
   sleep(1)
-finally
+finally:
    GPIO.cleanup();
